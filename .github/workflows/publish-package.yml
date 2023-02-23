@@ -1,3 +1,4 @@
+name : Publish system packages to registry
 on:
   release:
     types: [published]
