@@ -22,7 +22,7 @@ jobs:
 
     - name: Build system components
       run: |
-        rojo build standalone.project.json --output Temp/UserInputSystem.rbxm
+        rojo build Client/standalone.project.json --output Temp/UserInputSystem.rbxm
 
     - name: Create release
       id: create_release
