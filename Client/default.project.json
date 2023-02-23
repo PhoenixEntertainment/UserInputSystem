@@ -1,0 +1,9 @@
+{
+	"name" : "userinputsystem-client",
+	
+	"tree" : {
+		"$path" : "src",
+
+		"InputButtons_UI" : {"$path" : "../Assets/InputButtons_UI.rbxm"}
+	}
+}

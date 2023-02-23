@@ -1,0 +1,11 @@
+[package]
+name = "phoenixentertainment/userinputsystem-client"
+description = "Handles user input & provides interfaces to capturing it from various HIDs"
+version = "0.0.0-test.1"
+authors = ["Noble_Draconian"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
+DragonEngine = "nobledraconian/dragon-engine@2.0.0"
+UserInput = "sleitnick/input@2.1.1"
