@@ -4,6 +4,6 @@
 	"tree" : {
 		"$path" : "src",
 
-		"InputButtons_UI" : {"$path" : "../Assets/InputButtons_UI.rbxm"}
+		"InputButtons_UI" : {"$path" : "Assets/InputButtons_UI.rbxm"}
 	}
 }
