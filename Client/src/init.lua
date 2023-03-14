@@ -15,7 +15,7 @@ local Players = game:GetService("Players")
 ------------------
 -- Dependencies --
 ------------------
-local UserInput;
+local UserInput = require(script.Parent.UserInput)
 
 ------------
 -- Events --
@@ -136,7 +136,6 @@ end
 function UserInputController:Init()
 	InputSchemaChanged = self:RegisterControllerClientEvent("InputSchemaChanged")
 	DoubleTapped = self:RegisterControllerClientEvent("DoubleTapped")
-	UserInput = self:GetModule("UserInput")
 
 	CurrentInputSchema = DetermineInputSchemaFromInputType(UserInputService:GetLastInputType())
 	if CurrentInputSchema == "TouchScreen" or CurrentInputSchema == "TouchAndKeyboard" then
