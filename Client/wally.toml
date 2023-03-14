@@ -1,7 +1,7 @@
 [package]
 name = "phoenixentertainment/userinputsystem-client"
 description = "Handles user input & provides interfaces to capturing it from various HIDs"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Noble_Draconian"]
 realm = "shared"
 registry = "https://github.com/UpliftGames/wally-index"
