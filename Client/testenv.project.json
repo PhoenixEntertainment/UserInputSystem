@@ -6,7 +6,7 @@
 		"ReplicatedStorage": {
 			"$className" : "ReplicatedStorage",
 			
-			"Packages" : {"$path" : "Packages"}
+			"Packages" : {"$path" : "standalone.project.json"}
 		},
 
 		"ServerScriptService" : {
@@ -21,11 +21,7 @@
 			"StarterPlayerScripts" : {
 				"$className" : "StarterPlayerScripts",
 
-				"Controllers" : {
-					"$className" : "Folder",
-
-					"UserInputController" : {"$path" : "default.project.json"}
-				},
+				"Controllers" : {"$path" : "../TestEnv/Client/Controllers"},
 				"Scripts" : {"$path" : "../TestEnv/Client/Scripts"}
 			}
 		},
